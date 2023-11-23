@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   android:layout_marginLeft="50dp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnHadgama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tryClick" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="start read" />
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="600dp" >
+
+        <TextView
+            android:id="@+id/tvBook"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </ScrollView>
+</LinearLayout>
